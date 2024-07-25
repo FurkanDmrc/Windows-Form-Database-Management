@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ProjeModelStoreContainer" CdmEntityContainer="ProjeEntities">
+    <EntitySetMapping Name="Araclar">
+      <EntityTypeMapping TypeName="ProjeModel.Araclar">
+        <MappingFragment StoreEntitySet="Araclar">
+          <ScalarProperty Name="ArabaId" ColumnName="ArabaId" />
+          <ScalarProperty Name="ArabaMarkası" ColumnName="ArabaMarkası" />
+          <ScalarProperty Name="ArabaModeli" ColumnName="ArabaModeli" />
+          <ScalarProperty Name="ArabaVites" ColumnName="ArabaVites" />
+          <ScalarProperty Name="ArabaYılı" ColumnName="ArabaYılı" />
+          <ScalarProperty Name="ArabaYakıt" ColumnName="ArabaYakıt" />
+          <ScalarProperty Name="ArabaKasa" ColumnName="ArabaKasa" />
+          <ScalarProperty Name="ArabaUcret" ColumnName="ArabaUcret" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
